@@ -63,7 +63,7 @@ _**PROductivity** is an elite personal productivity app including daily task (hi
 
 ### MVP
 
-> Layout with 6 components in moble and minor styling
+> Layout with 6 components in mobile and minor styling
 
 _The **PROductivity** app
 
@@ -85,9 +85,7 @@ _The **PROductivity** app
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Spring   | _Lorem ipsum dolor sit amet, consectetur._ |
+|   React Router   |  Unsure
 
 <br>
 
@@ -131,8 +129,8 @@ src
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
 |    Header    | functional |   n   |   n   | _The header will link to the home page                          |
-|  Daily Task  | class      |   y   |   n   | _The cards will render the post info via props._                |
-|   To-Do's    | class      |   y   |   n   | _The gallery will render the posts using cards in flexbox._     |
+|  Daily Task  | class      |   y   |   n   | _The Task will render the post info via props._                 |
+|   To-Do's    | class      |   y   |   n   | _The To-do's will render the posts using cards in flexbox       |
 | Brainstorming| class      |   y   |   y   | _The blocks will render the post info via props                 |
 |  Workouts    | class      |   n   |   n   | _The blocks will render the post info via props                 |
 |  Good Eats   | class      |   n   |   n   | _The blocks will render the post info via props                 |
@@ -162,7 +160,7 @@ src
 
 |  Function  | Description                                |
 | :--------: | :----------------------------------------- |
-| Capitalize | _Lorem ipsum dolor sit amet, consectetur._ |
+| Header.    | Links to homepage for all pages|
 
 <br>
 
