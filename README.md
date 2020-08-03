@@ -51,12 +51,11 @@ _**PROductivity** is an elite personal productivity app including daily task (hi
 
 - Desktop Resource Show
 
-! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
+! https://drive.google.com/file/d/1B9OiWKrW9-NLVLWafVM6YFLpbXBGjEti/view?usp=sharing (url)
 
 - Tablet Resource Index
 
-!https://whimsical.com/JyDrjp7CcXHfXyxSaRdR49
-
+! https://drive.google.com/file/d/1vwETSi3Pr5jsoUvXblYQhZrcSBQxuKMv/view?usp=sharing
 - Mobile Resource Index
 
 <br>
