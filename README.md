@@ -37,19 +37,7 @@ _**PROductivity** is an elite personal productivity app including daily task (hi
 
 ! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
 
-- Desktop Landing
-
-! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
-
-- Desktop Body
-
-! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
-
-- Desktop Resource Index
-
-! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
-
-- Desktop Resource Show
+- Desktop Landing,  Desktop Body, Desktop Resource Index, Desktop Resource Show
 
 ! https://drive.google.com/file/d/1B9OiWKrW9-NLVLWafVM6YFLpbXBGjEti/view?usp=sharing (url)
 
