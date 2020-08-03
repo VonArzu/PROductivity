@@ -39,19 +39,19 @@ _**PROductivity** is an elite personal productivity app including daily task (hi
 
 - Desktop Landing
 
-!https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
+! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
 
 - Desktop Body
 
-![Dummy Link](url)
+! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
 
 - Desktop Resource Index
 
-![Dummy Link](url)
+! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
 
 - Desktop Resource Show
 
-![Dummy Link](url)
+! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
 
 - Tablet Resource Index
 
@@ -63,7 +63,7 @@ _**PROductivity** is an elite personal productivity app including daily task (hi
 
 ### MVP
 
-> Layout with 6 components in mobile and minor styling
+> CRUD ormat with simple Layout, at least 6 components, and a react routers in mobile,tablet, and desktop form with minor styling
 
 _The **PROductivity** app
 
@@ -86,7 +86,7 @@ _The **PROductivity** app
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
 |   React Router   |  
-|   Axios   |  
+|   Axios          |  
 
 <br>
 
