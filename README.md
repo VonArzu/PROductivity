@@ -27,7 +27,7 @@
 
 ### Overview
 
-_**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_**PROductivity** is an elite personal productivity app including daily task (high & low priority), to-dos, brainstorming ideas, workout log, Goot eats log, and resources.
 
 <br>
 
@@ -55,7 +55,7 @@ _**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum ri
 
 - Tablet Resource Index
 
-![Dummy Link](url)
+!https://whimsical.com/JyDrjp7CcXHfXyxSaRdR49(url)
 
 - Mobile Resource Index
 
@@ -63,19 +63,19 @@ _**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum ri
 
 ### MVP
 
-> The Minimum Viable Product should be a well-planned and easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
+> Layout with 6 components in moble and minor styling
 
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
+_The **PROductivity** app
 
 <br>
 
 #### Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+- Crud complete with in first 2 days
+- Simple design layout
+- Complete for all devices
+- Post MVP update in styling
+- post mvp add ecommerce itenararies, like, upgrade membership w/fee
 
 <br>
 
@@ -97,7 +97,7 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
-| WeatherAPI |      yes      | _example.com_ | _example.com/mickeymouse?s=movies&t=10_ |
+| AirtableAPI |      yes      | _example.com_ | https://airtable.com/app2aFIfy94WFful9/api/docs#curl/authentication |
 
 <br>
 
@@ -130,11 +130,13 @@ src
 
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
-|  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
-| Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
-|    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
+|    Header    | functional |   n   |   n   | _The header will link to the home page                          |
+|  Daily Task  | class      |   y   |   n   | _The cards will render the post info via props._                |
+|   To-Do's    | class      |   y   |   n   | _The gallery will render the posts using cards in flexbox._     |
+| Brainstorming| class      |   y   |   y   | _The blocks will render the post info via props                 |
+|  Workouts    | class      |   n   |   n   | _The blocks will render the post info via props                 |
+|  Good Eats   | class      |   n   |   n   | _The blocks will render the post info via props                 |
+|  Resources   | functional |   n   |   n   | _The blocks will render the post info via props                 |
 
 <br>
 
@@ -146,9 +148,11 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Simple Layout       |    H     |     5 hrs      |      hrs     |    3 hrs    |
+| Create CRUD Actions |    H     |     5 hrs      |      hrs     |     TBD     |
+| Device compatability|    L     |     5 hrs      |      hrs     |     TBD     |
+| CSS for styling     |    L     |     4 hrs      |      hrs     |     TBD     |
+| TOTAL               |          |     19 hrs     |      hrs     |     TBD     |
 
 <br>
 
@@ -166,8 +170,10 @@ src
 
 > Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
 
-- _Add user account and auth capabilities._
-- _Utilize the Giphy API to welcome new users with funny gifs._
+- Indepth CSS for styling
+- Add PRO membership SELECTIONS FOR 8.99 a month
+- Add add check out, cart, and new membership monthly account
+
 
 <br>
 
