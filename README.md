@@ -132,6 +132,9 @@ src
 |  Daily Task  | class      |   y   |   y   | _The Task will render the post info via props & state            |
 |   To-Do's    | class      |   y   |   y   | _The To-do's will render the posts via props & state             |
 |  Resources   | functional |   n   |   n   | _The blocks will render the post that wont change                |
+|  Resources   | functional |   n   |   n   | _The blocks will render the post that wont change                |
+|  add button  | functional |   y   |   n   | _Buttons will create a post                                      |
+| delete button| functional |   y   |   n   | _Buttons will delete a post                                      |
 
 <br>
 
