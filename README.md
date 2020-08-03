@@ -35,16 +35,17 @@ _**PROductivity** is an elite personal productivity app including daily task (hi
 
 > Use the Wireframes section to display desktop, tablet and mobile views.
 
-! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
+! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing 
 
-- Desktop Landing,  Desktop Body, Desktop Resource Index, Desktop Resource Show
+- Desktop
 
-! https://drive.google.com/file/d/1B9OiWKrW9-NLVLWafVM6YFLpbXBGjEti/view?usp=sharing (url)
+! https://drive.google.com/file/d/1B9OiWKrW9-NLVLWafVM6YFLpbXBGjEti/view?usp=sharing 
 
-- Tablet Resource Index
+- Tablet 
 
 ! https://drive.google.com/file/d/1vwETSi3Pr5jsoUvXblYQhZrcSBQxuKMv/view?usp=sharing
-- Mobile Resource Index
+
+- Mobile 
 
 <br>
 
