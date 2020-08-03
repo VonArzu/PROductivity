@@ -27,7 +27,7 @@
 
 ### Overview
 
-_**PROductivity** is an elite personal productivity app including daily task (high & low priority), to-dos, brainstorming ideas, workout log, Goot eats log, and resources.
+_**PROductivity** is an elite personal productivity app including daily task (high & low priority), to-dos, and resources.
 
 <br>
 
@@ -35,11 +35,11 @@ _**PROductivity** is an elite personal productivity app including daily task (hi
 
 > Use the Wireframes section to display desktop, tablet and mobile views.
 
-![Dummy Link](url)
+! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
 
 - Desktop Landing
 
-![Dummy Link](url)
+!https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing (url)
 
 - Desktop Body
 
@@ -55,7 +55,7 @@ _**PROductivity** is an elite personal productivity app including daily task (hi
 
 - Tablet Resource Index
 
-!https://whimsical.com/JyDrjp7CcXHfXyxSaRdR49(url)
+!https://whimsical.com/JyDrjp7CcXHfXyxSaRdR49
 
 - Mobile Resource Index
 
@@ -85,7 +85,8 @@ _The **PROductivity** app
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|   React Router   |  Unsure
+|   React Router   |  
+|   Axios   |  
 
 <br>
 
@@ -95,7 +96,7 @@ _The **PROductivity** app
 
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
-| AirtableAPI |      yes      | _example.com_ | https://airtable.com/app2aFIfy94WFful9/api/docs#curl/authentication |
+| AirtableAPI|     yes      | _example.com_ | https://airtable.com/app2aFIfy94WFful9/api/docs#curl/authentication |
 
 <br>
 
@@ -128,13 +129,10 @@ src
 
 |  Component   |    Type    | state | props | Description                                                      |
 | :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | functional |   n   |   n   | _The header will link to the home page                          |
-|  Daily Task  | class      |   y   |   n   | _The Task will render the post info via props._                 |
-|   To-Do's    | class      |   y   |   n   | _The To-do's will render the posts using cards in flexbox       |
-| Brainstorming| class      |   y   |   y   | _The blocks will render the post info via props                 |
-|  Workouts    | class      |   n   |   n   | _The blocks will render the post info via props                 |
-|  Good Eats   | class      |   n   |   n   | _The blocks will render the post info via props                 |
-|  Resources   | functional |   n   |   n   | _The blocks will render the post info via props                 |
+|    Header    | functional |   n   |   y   | _The header will link to the home page of current To-Dos & Daily Task|
+|  Daily Task  | class      |   y   |   y   | _The Task will render the post info via props & state            |
+|   To-Do's    | class      |   y   |   y   | _The To-do's will render the posts via props & state             |
+|  Resources   | functional |   n   |   n   | _The blocks will render the post that wont change                |
 
 <br>
 
@@ -146,11 +144,14 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Simple Layout       |    H     |     5 hrs      |      hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     5 hrs      |      hrs     |     TBD     |
+| Simple Layout       |    H     |     5 hrs      |      hrs     |     TBD     |
+| Create Actions      |    H     |     3 hrs      |      hrs     |     TBD     |
+| Read Actions        |    H     |     3 hrs      |      hrs     |     TBD     |
+| Update Actions      |    H     |     3 hrs      |      hrs     |     TBD     |
+| Delete Actions      |    H     |     3 hrs      |      hrs     |     TBD     |
 | Device compatability|    L     |     5 hrs      |      hrs     |     TBD     |
-| CSS for styling     |    L     |     4 hrs      |      hrs     |     TBD     |
-| TOTAL               |          |     19 hrs     |      hrs     |     TBD     |
+| CSS for styling     |    L     |     3 hrs      |      hrs     |     TBD     |
+| TOTAL               |          |     25 hrs     |      hrs     |     TBD     |
 
 <br>
 
@@ -160,7 +161,8 @@ src
 
 |  Function  | Description                                |
 | :--------: | :----------------------------------------- |
-| Header.    | Links to homepage for all pages|
+| Create    | Creates a task|
+| Delete    | Deletes a task|
 
 <br>
 
