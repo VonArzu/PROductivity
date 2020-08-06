@@ -9,7 +9,7 @@ function DailyTask() {
   useEffect(() => {
     const apiCall = async () => {
       const res = await axios.get(
-        `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201/${params.title}`,
+        `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201${params.title}`,
 
         {
           headers: {
