@@ -9,12 +9,12 @@ function Home() {
   useEffect(() => {
     const apiCall = async () => {
       const res = await axios(
-        `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201`,
-        {
-          headers: {
-            Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
-          },
-        }
+        `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201?api_key=keyoYm8SN7shEcrlP`,
+        // {
+        //   headers: {
+        //     'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
+        //   },
+        // }
       );
       updateData(res.data.records);
     };
@@ -26,10 +26,10 @@ function Home() {
       {data.map((item) => (
         <ToDo
           id={item.id}
-          title={item.feilds.title}
-          date={item.feilds.created_at}
-          list={item.feilds.text}
-          steps={item.feilds.steps}
+          title={item.fields.title}
+          date={item.fields.created_at}
+          list={item.fields.text}
+          steps={item.fields.steps}
         />
       ))}
     </>

@@ -1,15 +1,15 @@
-import React, { useSate } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 
 function Daily() {
-  const [title, updateTitle] = useSate({});
-  const [date, updateDate] = useSate({});
-  const [list, updateList] = useSate({});
-  const [steps, updateSteps] = useSate({});
+  const [title, updateTitle] = useState({});
+  const [date, updateDate] = useState({});
+  const [list, updateList] = useState({});
+  const [steps, updateSteps] = useState({});
 
   const addDaily = async (title, date, list, steps) => {
     const data = await axios.post(
-      `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201`,
+      `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201?api_key=keyoYm8SN7shEcrlP`,
       {
         fields: {
           created_at: date,

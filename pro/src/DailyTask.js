@@ -9,11 +9,11 @@ function DailyTask() {
   useEffect(() => {
     const apiCall = async () => {
       const res = await axios.get(
-        `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201${params.title}`,
+        `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201?api_key=keyoYm8SN7shEcrlP${params.title}`,
 
         {
           headers: {
-            Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
+            'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
           },
         }
       );
