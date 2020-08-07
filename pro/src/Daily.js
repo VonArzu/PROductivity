@@ -28,7 +28,7 @@ function Daily() {
   };
   return (
     <>
-      <form
+      <form className="form"
         onSubmit={(e) => {
           e.preventDefault();
           addDaily(date, steps);

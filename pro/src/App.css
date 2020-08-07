@@ -1,17 +1,22 @@
 body{
-  background-color:white;
+background-color: black;
+  margin: 0 auto;
   width: 100vw;
-
 }
+
 .box{
+  flex-direction: row-reverse;
   color: #697D65;
   text-align: center;
-
 }
+.form{
+  font-size: 25px;
+}
+
 .navLink {
   background-color: #F6F1C2;
-  font-size: x-large;
-  font-weight: bolder;
+  font-size: 50px;
+  font-weight: 900;
   box-sizing: border-box;
   box-shadow: 5px 10px #888888;
   display: flex;
@@ -21,6 +26,7 @@ body{
 
 .add{
   width: 75%;
+  font-size: 35px;
   display: flex;
   justify-content: center;
   background-color: #B03813;
@@ -29,5 +35,6 @@ body{
   box-sizing: border-box;
   box-shadow: 5px 10px #888888;
   margin-bottom:15px ;
-  margin-left: 15%;
+  margin-left: auto;
+  margin-right: auto;
 }

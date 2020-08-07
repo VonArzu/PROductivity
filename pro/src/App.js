@@ -11,7 +11,8 @@ import {Card} from "react-bootstrap";
 function App() {
 
 const cardInfo = [
-    {image: "https://img.etimg.com/thumb/width-640,height-480,imgsize-405947,resizemode-1,msid-67450028/budget-faqs/why-is-it-important-for-the-government-to-have-a-budget/budget.jpg", title: "Budget", text: "Need help with budgeting?"},
+    {image: "https://img.etimg.com/thumb/width-640,height-480,imgsize-405947,resizemode-1,msid-67450028/budget-faqs/why-is-it-important-for-the-government-to-have-a-budget/budget.jpg", 
+    title: "Budget", text: "Need help with budgeting?"},
     {image: "https://pmyf.files.wordpress.com/2020/03/resources-1-1.jpg", title: "Resources", text: "These Resources are a life saver"},
     
   ];
@@ -34,9 +35,8 @@ const cardInfo = [
   return (
     <>
       <Link className='navLink' to="/">PROductivity</Link>
-      {/* <Link className='navLink' to="/">ToDo</Link>
-      <Link className='navLink' to="/">Daily</Link>
-      <Link className='navLink' to="/">DailyTask</Link> */}
+
+     
 
       <Route path="/" exact>
         <Home />
@@ -60,7 +60,6 @@ const cardInfo = [
     </>
     
   );
-  
 }
 
 
