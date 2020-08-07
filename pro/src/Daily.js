@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import axios from "axios";
 
 function Daily() {
-  const [title, updateTitle] = useState({});
-  const [date, updateDate] = useState({});
-  const [list, updateList] = useState({});
-  const [steps, updateSteps] = useState({});
+  const [title, updateTitle] = useState('');
+  const [date, updateDate] = useState('');
+  const [list, updateList] = useState('');
+  const [steps, updateSteps] = useState('');
 
-  const addDaily = async (title, date, list, steps) => {
+  const addDaily = async () => {
     const data = await axios.post(
-      `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201?api_key=keyoYm8SN7shEcrlP`,
+      `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201`,
       {
         fields: {
-          created_at: date,
+          due_date: date,
           title: title,
           list: list,
           steps: steps,
@@ -21,7 +21,7 @@ function Daily() {
       {
         headers: {
           Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY} `,
-          "Content=Type": "application/json",
+          "Content-Type": "application/json",
         },
       }
     );
@@ -31,13 +31,14 @@ function Daily() {
       <form
         onSubmit={(e) => {
           e.preventDefault();
-          addDaily(title, date, list, steps);
+          addDaily(date, steps);
         }}
       >
         <label htmlFor="title">Title</label>
         <input
           type="text"
           id="title"
+          value={title}
           onChange={(e) => {
             updateTitle(e.target.value);
           }}
@@ -45,8 +46,10 @@ function Daily() {
 
         <label htmlFor="createdby">Create Date</label>
         <input
-          type="text"
+          type="date"
           id="createdby"
+          value={date}
+
           onChange={(e) => {
             updateDate(e.target.value);
           }}
@@ -66,6 +69,7 @@ function Daily() {
           id="steps"
           cols="30"
           rows="10"
+          value={steps}
           onChange={(e) => {
             updateSteps(e.target.value);
           }}

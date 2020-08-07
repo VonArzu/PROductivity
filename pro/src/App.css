@@ -3,24 +3,31 @@ body{
   width: 100vw;
 
 }
+.box{
+  color: #697D65;
+  text-align: center;
 
-
+}
 .navLink {
   background-color: #F6F1C2;
+  font-size: x-large;
+  font-weight: bolder;
   box-sizing: border-box;
+  box-shadow: 5px 10px #888888;
   display: flex;
   justify-content:center;
-  flex-wrap: wrap;
-  color: #D68E40;
+  color: #E87F5F;
 }
-.ToDoList{
-  color: #697D65;
-  text-decoration-color: #697D65;
-}
+
 .add{
+  width: 75%;
   display: flex;
   justify-content: center;
-  background-color: #B5D4A7;
+  background-color: #B03813;
   color: white;
+  border-radius: 20%;
   box-sizing: border-box;
+  box-shadow: 5px 10px #888888;
+  margin-bottom:15px ;
+  margin-left: 15%;
 }

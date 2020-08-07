@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ToDo from "./ToDo";
-import { Route, Link } from "react-router-dom";
+
 
 function Home() {
   const [data, updateData] = useState([]);
@@ -18,11 +18,13 @@ function Home() {
       );
       updateData(res.data.records);
     };
-    apiCall();
+    apiCall();   
   }, []);
 
   return (
     <>
+  
+
       {data.map((item) => (
         <ToDo
           id={item.id}
