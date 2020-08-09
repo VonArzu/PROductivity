@@ -1,36 +1,98 @@
 body{
-background-color: black;
-  margin: 0 auto;
   width: 100vw;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcHBhAHBwcHBwcHDQ0HBwcHBw8ICQcNFREiIhURFRUYKCggGBolGx8VITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFQ0NFSsdHx0rKysrKysrLSsrKysrLTcrKy0rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAABAAIF/8QAFRABAQAAAAAAAAAAAAAAAAAAAAH/xAAYAQEBAQEBAAAAAAAAAAAAAAABAAIFBv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AO9EonBe1aiUSBIKBIKCIaQRBDJhBQMIhQRBQJgMQJgMDJUSiDSiUQJgMQMMEMQUajMaiChghgBhEKDgxKJt02olEgSCgSCgmmSmSQQCQUDCIUEQUCYDECYDAyVEog0olECYDEDDBDEFGozGogoYIYAYRCg4MSibdNqJRIEgoEgoIgpkwggGEQoGEQoIgoEwGIEwGBkqJRBpRKIEwGIGGCGIKNRmNRBQwQwAwiFBwYlE26bUSiQJBQJBQRBTJIIBIKBhEKCIKBMBiBMBgZKiUQaUSiBMBiBhghiCjUZjUQUMEMAMIhQcGJRNum1EokCQUCQUEQ0mURCASCgYRCgiCgTAYgTAYGSolEGlEogTAYgYYIYgo1GY1EFDBDADCIUHBiUTbptRKJAkFAkFBNMtJlEEAkFAwiFBEFAmAxAmAwMlRKINKJRAmAxAwwQxBRqMxqIKGCGAGEQoODEom3TaiUSBIKBIKCIKZJBAJBQMIhQRBQJgMQJgMDJUSiDSiUQJgMQMMEMQUajMaiChghgBhEKDgxKJt02olEgSCgSCgmmSmSQQCQUDCIUEQUCYDECYDAyVEog0olECYDEDDBDEFGozGogoYIYAYRCg4MSibdNqJRIEgoEgoJpkpkkEAkFAwiFBEFAmAxAmAwMlRKINKJRAmAxAwwQxBRqMxqIKGCGAGEQoODEom3TaiUSBIKBIKCaZKBIhDJIKBhEKCIKBMBiBMBgZKiUQaUSiBMBiBhghiCjUZjUQUMEMAMIhQcGJRNum1EokCQUCQUE0yUySIQCRCgYRCgiCgTAYgTAYGSolEGlEogTAYgYYIYgo1GY1EFDBDADCIUHBiSbdNqJJAwpIExJBNQIAmJIEpJkwpIIpIExJAmJBkqFIFQpBGJIGGJIKNRJBQwoBQpIP/9k=');
 }
+h1{
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
+}
+h1, p{
+text-align: center;
+
+}
+p{
+  font-weight: bold;
+}
+.add{
+  margin-top: 20px;
+  margin-bottom: auto;
+}
 .box{
   flex-direction: row-reverse;
   color: #697D65;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-align: center;
 }
+.grid{
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top:15px ;
+  margin-left: auto;
+  margin-right: auto;
+}
 .form{
+  display: flex;
+  margin-top: 25px;;
+  padding-top: 10px;
   font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
+}
+
+.button{
+  display: flex;
+  border-radius: 50%;
+  background-color: orange;
+  text-align:center;
+  width: 25%;
+  height: 25%;
 }
 
 .navLink {
   background-color: #F6F1C2;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 900;
   box-sizing: border-box;
   box-shadow: 5px 10px #888888;
   display: flex;
   justify-content:center;
   color: #E87F5F;
-}
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
+}
+.navLink2 {
+  background-color: #F6F1C2;
+  font-size: 30px;
+  font-weight: 900;
+  box-sizing: border-box;
+  box-shadow: 5px 10px #888888;
+  display: flex;
+  justify-content:center;
+  color: #E87F5F;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+.card-title, .button{
+  box-shadow: 5px 5px #888888;
+  border-radius: 20%;
+  background-color: #E87F5F;
+}
 .add{
   width: 75%;
   font-size: 35px;
   display: flex;
   justify-content: center;
-  background-color: #B03813;
-  color: white;
+  background-color: white;
+  color:#B03813;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size:35px ;
+  font-weight: bold;
   border-radius: 20%;
   box-sizing: border-box;
   box-shadow: 5px 10px #888888;

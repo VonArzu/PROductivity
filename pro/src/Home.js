@@ -29,9 +29,9 @@ function Home() {
         <ToDo
           id={item.id}
           title={item.fields.title}
-          date={item.fields.created_at}
-          list={item.fields.text}
+          list={item.fields.list}
           steps={item.fields.steps}
+          date={item.fields.due_date}
         />
       ))}
     </>

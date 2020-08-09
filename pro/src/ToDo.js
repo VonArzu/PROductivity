@@ -7,7 +7,7 @@ function ToDo(props) {
  
   return (
     <>
-      <Link to={`/Daily/${props.id}`}>
+      <Link to={`/ToDo/${props.id}`}>
         <h2 className="add">{props.title}</h2>
       </Link>
       

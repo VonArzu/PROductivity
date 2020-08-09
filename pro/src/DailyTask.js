@@ -9,7 +9,7 @@ function DailyTask() {
   useEffect(() => {
     const apiCall = async () => {
       const res = await axios.get(
-        `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201?api_key=keyoYm8SN7shEcrlP${params.title}`,
+        `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201/${params.id}`,
 
         {
           headers: {
@@ -29,6 +29,34 @@ function DailyTask() {
       <p>{data.created_at}</p>
       <p>{data.list}</p>
       <p>{data.steps}</p>
+    </>
+  );
+  const [data, removeData] = useState({});
+  const params = useParams();
+
+  useEffect(() => {
+    const apiCall = async () => {
+      const res = await axios.delete(
+        `https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201/${params.id}`,
+
+        {
+          headers: {
+            'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
+          },
+        }
+      );
+      removeData(res.data.fields);
+      console.log(res.data.fields);
+    };
+    apiCall();
+  }, []);
+
+  return (
+    <>
+      <h1>{}</h1>
+      <p>{}</p>
+      <p>{}</p>
+      <p>{}</p>
     </>
   );
 }
