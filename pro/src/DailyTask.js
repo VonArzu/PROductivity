@@ -45,7 +45,7 @@ function DailyTask() {
       <p>{data.list}</p>
       <p>{data.steps}</p>
 
-      <button onClick={handleDelete}>Delete</button>
+      <button className="delete" onClick={handleDelete}>Delete</button>
     </>
   );
 }

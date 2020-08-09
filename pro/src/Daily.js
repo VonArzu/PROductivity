@@ -35,7 +35,7 @@ function Daily() {
           addDaily(date, steps);
         }}
       >
-        <label htmlFor="title">Title</label>
+        <label className="fillIn" htmlFor="title">Title</label>
         <input
           type="text"
           id="title"
@@ -45,7 +45,7 @@ function Daily() {
           }}
         />
 
-        <label htmlFor="createdby">Create Date</label>
+        <label className="fillIn" htmlFor="createdby">Create Date</label>
         <input
           type="date"
           id="createdby"
@@ -56,7 +56,7 @@ function Daily() {
           }}
         />
 
-        <label htmlFor="list">List</label>
+        <label className="fillIn" htmlFor="list">List</label>
         <input
           type="text"
           id="list"
@@ -65,7 +65,7 @@ function Daily() {
           }}
         />
 
-        <label htmlFor="steps">Steps</label>
+        <label className="fillIn" htmlFor="steps">Steps</label>
         <textarea
           id="steps"
           cols="30"

@@ -6,8 +6,10 @@ body{
   background-image:url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcHBhAHBwcHBwcHDQ0HBwcHBw8ICQcNFREiIhURFRUYKCggGBolGx8VITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFQ0NFSsdHx0rKysrKysrLSsrKysrLTcrKy0rKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAABAAIF/8QAFRABAQAAAAAAAAAAAAAAAAAAAAH/xAAYAQEBAQEBAAAAAAAAAAAAAAABAAIFBv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AO9EonBe1aiUSBIKBIKCIaQRBDJhBQMIhQRBQJgMQJgMDJUSiDSiUQJgMQMMEMQUajMaiChghgBhEKDgxKJt02olEgSCgSCgmmSmSQQCQUDCIUEQUCYDECYDAyVEog0olECYDEDDBDEFGozGogoYIYAYRCg4MSibdNqJRIEgoEgoIgpkwggGEQoGEQoIgoEwGIEwGBkqJRBpRKIEwGIGGCGIKNRmNRBQwQwAwiFBwYlE26bUSiQJBQJBQRBTJIIBIKBhEKCIKBMBiBMBgZKiUQaUSiBMBiBhghiCjUZjUQUMEMAMIhQcGJRNum1EokCQUCQUEQ0mURCASCgYRCgiCgTAYgTAYGSolEGlEogTAYgYYIYgo1GY1EFDBDADCIUHBiUTbptRKJAkFAkFBNMtJlEEAkFAwiFBEFAmAxAmAwMlRKINKJRAmAxAwwQxBRqMxqIKGCGAGEQoODEom3TaiUSBIKBIKCIKZJBAJBQMIhQRBQJgMQJgMDJUSiDSiUQJgMQMMEMQUajMaiChghgBhEKDgxKJt02olEgSCgSCgmmSmSQQCQUDCIUEQUCYDECYDAyVEog0olECYDEDDBDEFGozGogoYIYAYRCg4MSibdNqJRIEgoEgoJpkpkkEAkFAwiFBEFAmAxAmAwMlRKINKJRAmAxAwwQxBRqMxqIKGCGAGEQoODEom3TaiUSBIKBIKCaZKBIhDJIKBhEKCIKBMBiBMBgZKiUQaUSiBMBiBhghiCjUZjUQUMEMAMIhQcGJRNum1EokCQUCQUE0yUySIQCRCgYRCgiCgTAYgTAYGSolEGlEogTAYgYYIYgo1GY1EFDBDADCIUHBiSbdNqJJAwpIExJBNQIAmJIEpJkwpIIpIExJAmJBkqFIFQpBGJIGGJIKNRJBQwoBQpIP/9k=');
 }
 h1{
+  margin: 0 auto;
+  margin-top: 25px;
+  padding-top: 10px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
 }
 h1, p{
 text-align: center;
@@ -17,16 +19,21 @@ p{
   font-weight: bold;
 }
 .add{
-  margin-top: 20px;
-  margin-bottom: auto;
+  margin: 0 auto;
 }
-.box{
-  flex-direction: row-reverse;
+.box{ 
   color: #697D65;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-align: center;
 }
-.grid{
+.fillIn{ /*form text*/
+  margin: 0 auto;
+  display:flex;
+  justify-content: center;
+  color: white;
+}
+.grid{ /*cards for resources*/
+  margin: 0 auto;
   width: 75%;
   display: flex;
   justify-content: space-evenly;
@@ -35,8 +42,9 @@ p{
   margin-right: auto;
 }
 .form{
+  margin: 0 auto;
   display: flex;
-  margin-top: 25px;;
+  margin-top: 25px;
   padding-top: 10px;
   font-size: 25px;
   text-align: center;
@@ -44,14 +52,29 @@ p{
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
 }
+.delete{ /*delete button*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  border-radius: 25%;
+  background-color: #E87F5F;
+  text-align:center;
+  color: #B03813;
+  font-size: 20px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
 
+}
 .button{
+  margin: 0 auto;
   display: flex;
   border-radius: 50%;
-  background-color: orange;
   text-align:center;
-  width: 25%;
+  color: white;
   height: 25%;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
+ 
 }
 
 .navLink {
@@ -83,7 +106,9 @@ p{
   border-radius: 20%;
   background-color: #E87F5F;
 }
-.add{
+.add{ /*the task list on home page*/
+  margin-top: 25px;
+  padding-top: 10px;
   width: 75%;
   font-size: 35px;
   display: flex;
@@ -91,7 +116,6 @@ p{
   background-color: white;
   color:#B03813;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  font-size:35px ;
   font-weight: bold;
   border-radius: 20%;
   box-sizing: border-box;

@@ -9,7 +9,6 @@ import { Card } from "react-bootstrap";
 
 function App() {
   const cardInfo = [
-    //How to add link? link:"https://www.creditkarma.com/advice/i/credit-karma-guide-budgeting"
     {
       image:
         "https://s3.amazonaws.com/freestock-prod/450/freestock_573398767.jpg",
@@ -21,28 +20,26 @@ function App() {
       image:
         "https://vignette.wikia.nocookie.net/logopedia/images/0/03/IBooks_OS_X.svg/revision/latest/scale-to-width-down/340?cb=20181228231211",
       title: "Books",
+      link: "https://www.amazon.com/Best-Sellers-Books-Self-Help/zgbs/books/4736",
       text: "These Resources are a life saver",
     },
     {
       image:
         "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX23586509.jpg",
       title: "Credit",
+      link: "https://www.creditkarma.com/all/advice",
+
       text: "These Resources are a life saver",
     },
     {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTtsHbGn7OTLODsvuwEGjdbiAk8YwDMfFI43Q&usqp=CAU",
       title: "Help",
+      link: "https://www.creditkarma.com/advice/i/credit-karma-guide-budgeting",
       text: "These Resources are a life saver",
     },
   ];
-  const gridStack = [
-    {
-      image: "https://pmyf.files.wordpress.com/2020/03/resources-1-1.jpg",
-      title: "Resources",
-      text: "These Resources are a life saver",
-    },
-  ];
+  
 
   //Used cards from https://react-bootstrap.github.io/components/cards/
   const renderCard = (card, index) => {
