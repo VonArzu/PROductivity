@@ -180,4 +180,6 @@ src
 > I did not know how to make the cards grid view and fixed it in CSS
 > I did not know how to make the cards contain links to resources and added new code with help
 > I did not know how to seperate description of task with adding task and seprated each with help
+> Started desktop instead of mobile and had trouble sizing efficeintly but it works
+
 
