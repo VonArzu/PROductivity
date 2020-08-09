@@ -78,7 +78,6 @@ function Daily() {
 
         <button className="button" type="submit">Add Task</button>
 
-        <button className="button" type="delete">Delete</button>
       </form>
 
 

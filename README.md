@@ -27,7 +27,7 @@
 
 ### Overview
 
-_**PROductivity** is an elite personal productivity app including daily task (high & low priority), to-dos, and resources.
+_**PROductivity** is an elite personal productivity app including daily task to log , New to-dos to add to daily task, and resources consisting of budget help, books, credit help, and overall help.
 
 <br>
 
@@ -35,23 +35,24 @@ _**PROductivity** is an elite personal productivity app including daily task (hi
 
 > Use the Wireframes section to display desktop, tablet and mobile views.
 
-! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing 
-
 - Desktop
 
-! https://drive.google.com/file/d/1B9OiWKrW9-NLVLWafVM6YFLpbXBGjEti/view?usp=sharing 
+! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing 
 
 - Tablet 
 
-! https://drive.google.com/file/d/1vwETSi3Pr5jsoUvXblYQhZrcSBQxuKMv/view?usp=sharing
+! https://drive.google.com/file/d/1B9OiWKrW9-NLVLWafVM6YFLpbXBGjEti/view?usp=sharing 
 
 - Mobile 
+
+! https://drive.google.com/file/d/1vwETSi3Pr5jsoUvXblYQhZrcSBQxuKMv/view?usp=sharing
+
 
 <br>
 
 ### MVP
 
-> CRUD ormat with simple Layout, at least 6 components, and a react routers in mobile,tablet, and desktop form with minor styling
+> CRUD format with simple Layout, at least 6 components, and a react router. Followed by  mobile,tablet, and desktop mode with minor styling.
 
 _The **PROductivity** app
 
@@ -73,8 +74,10 @@ _The **PROductivity** app
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|   React Router   |  
-|   Axios          |  
+|   React Router   |  Routing links and pages
+|   Axios          |  Pulling Air table API key
+| Reacts-Bootstrap |  Styling cards for resources
+
 
 <br>
 
@@ -84,7 +87,7 @@ _The **PROductivity** app
 
 |    API     | Quality Docs? | Website       | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
-| AirtableAPI|     yes      | _example.com_ | https://airtable.com/app2aFIfy94WFful9/api/docs#curl/authentication |
+| AirtableAPI|   yes | https://airtable.com/ | https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201/recLXsRslsXAP7O80
 
 <br>
 
@@ -95,18 +98,14 @@ _The **PROductivity** app
 ```
 src
 |__ assets/
-      |__ data-tests
-      |__ fonts
-      |__ graphics
-      |__ images
-      |__ mockups
-|__ components/
-      |__ Header.jsx
-      |__ Hero.jsx
-      |__ Ipsum.jsx
-      |__ Lorem.jsx
-      |__ CTA.jsx
-      |__ Footer.jsx
+      |__ 
+|__ components/ (Added Image links and Resources links)
+      |__ App.js 
+      |__ Home.js
+      |__ Daily.js
+      |__ DailyTask.js
+      |__ ToDo.js
+      |__ Dynamic Resource cards from bootstrap w/links
 ```
 
 <br>
@@ -151,8 +150,8 @@ src
 
 |  Function  | Description                                |
 | :--------: | :----------------------------------------- |
-| Create    | Creates a task|
-| Delete    | Deletes a task|
+| Add To-Do    | Creates a task on home page|
+| Delete       | Deletes a task on home page|
 
 <br>
 
@@ -160,7 +159,7 @@ src
 
 > Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
 
-- Indepth CSS for styling
+- Indepth CSS for styling (Completed)
 - Add PRO membership SELECTIONS FOR 8.99 a month
 - Add add check out, cart, and new membership monthly account
 
@@ -173,8 +172,12 @@ src
 
 ### Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
+> I am proud of using React-Boostrap library because It was self-taught. I am also proud to get introduced to a new way to create a delete button. 
+> I am proud of the projects purpose and the amount of people it will help starting with myself
 
 ### Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution, if you'd like.
+> I did not know how to make the cards grid view and fixed it in CSS
+> I did not know how to make the cards contain links to resources and added new code with help
+> I did not know how to seperate description of task with adding task and seprated each with help
+
