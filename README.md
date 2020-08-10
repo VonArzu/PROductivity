@@ -17,6 +17,9 @@
   - [Code Showcase](#Code-Showcase)
   - [Code Issues & Resolutions](#Code-Issues--Resolutions)
 
+## Project Planning
+
+> Pitch the idea to users before begining and was promoted to create PROductivity
 
 <br>
 
