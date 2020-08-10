@@ -1,4 +1,5 @@
 # PROductivity
+
 # README <!-- omit in toc -->
 
 - [Project Planning](#Project-Planning)
@@ -25,7 +26,7 @@
 
 ### Overview
 
-_**PROductivity** is an elite personal productivity app including daily task to log , New to-dos to add to daily task, and resources consisting of budget help, books, credit help, and overall help.
+\_**PROductivity** is an elite personal productivity app including daily task to log , New to-dos to add to daily task, and resources consisting of budget help, books, credit help, and overall help.
 
 <br>
 
@@ -35,24 +36,23 @@ _**PROductivity** is an elite personal productivity app including daily task to 
 
 - Desktop
 
-! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing 
+! https://drive.google.com/file/d/14C7C7pvSaCFy_IUGBptHDiHwa8cg0Ydn/view?usp=sharing
 
-- Tablet 
+- Tablet
 
-! https://drive.google.com/file/d/1B9OiWKrW9-NLVLWafVM6YFLpbXBGjEti/view?usp=sharing 
+! https://drive.google.com/file/d/1B9OiWKrW9-NLVLWafVM6YFLpbXBGjEti/view?usp=sharing
 
-- Mobile 
+- Mobile
 
 ! https://drive.google.com/file/d/1vwETSi3Pr5jsoUvXblYQhZrcSBQxuKMv/view?usp=sharing
-
 
 <br>
 
 ### MVP
 
-> CRUD format with simple Layout, at least 6 components, and a react router. Followed by  mobile,tablet, and desktop mode with minor styling.
+> CRUD format with simple Layout, at least 6 components, and a react router. Followed by mobile,tablet, and desktop mode with minor styling.
 
-_The **PROductivity** app
+\_The **PROductivity** app
 
 <br>
 
@@ -62,7 +62,7 @@ _The **PROductivity** app
 - Simple design layout
 - Complete for all devices
 - Post MVP update in styling
-- post mvp add ecommerce itenararies, like, upgrade membership w/fee
+- post mvp add ecommerce ads and more help with membership w/fee, like a life plan outline for current month, 3, 5 and 10 year plan
 
 <br>
 
@@ -70,12 +70,11 @@ _The **PROductivity** app
 
 > Use this section to list all supporting libraries and their role in the project.
 
-|     Library      | Description                                |
-| :--------------: | :----------------------------------------- |
-|   React Router   |  Routing links and pages
-|   Axios          |  Pulling Air table API key
-| Reacts-Bootstrap |  Styling cards for resources
-
+|     Library      | Description                 |
+| :--------------: | :-------------------------- |
+|   React Router   | Routing links and pages     |
+|      Axios       | Pulling Air table API key   |
+| Reacts-Bootstrap | Styling cards for resources |
 
 <br>
 
@@ -83,9 +82,9 @@ _The **PROductivity** app
 
 > Use the Data Section to define the API(s) you will be consuming for your project, inluding sample URL queries.
 
-|    API     | Quality Docs? | Website       | Sample Query                            |
-| :--------: | :-----------: | :------------ | :-------------------------------------- |
-| AirtableAPI|   yes | https://airtable.com/ | https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201/recLXsRslsXAP7O80
+|     API     | Quality Docs? | Website               | Sample Query                                                              |
+| :---------: | :-----------: | :-------------------- | :------------------------------------------------------------------------ |
+| AirtableAPI |      yes      | https://airtable.com/ | https://api.airtable.com/v0/app2aFIfy94WFful9/Table%201/recLXsRslsXAP7O80 |
 
 <br>
 
@@ -96,9 +95,9 @@ _The **PROductivity** app
 ```
 src
 |__ assets/
-      |__ 
+      |__
 |__ components/ (Added Image links and Resources links)
-      |__ Header on App.js (PROductivity) 
+      |__ Header on App.js (PROductivity)
       |__ DailyTask.js
       |__ ToDo.js
       |__ Dynamic Resource cards from bootstrap w/links
@@ -112,33 +111,33 @@ src
 
 > Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
 
-|  Component   |    Type    | state | props | Description                                                      |
-| :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | functional |   n   |   y   | _The header will link to the home page of current To-Dos & Daily Task|
-|  Daily Task  | class      |   y   |   y   | _The Task will render the post info via props & state            |
-|   To-Do's    | class      |   y   |   y   | _The To-do's will render the posts via props & state             |
-|  Resources   | functional |   n   |   n   | _The blocks will render the post that wont change                |
-|  add button  | functional |   y   |   n   | _Buttons will create a post                                      |
-| delete button| functional |   y   |   n   | _Buttons will delete a post                                      |
+|   Component   |    Type    | state | props | Description                                                            |
+| :-----------: | :--------: | :---: | :---: | :--------------------------------------------------------------------- |
+|    Header     | functional |   n   |   y   | \_The header will link to the home page of current To-Dos & Daily Task |
+|  Daily Task   |   class    |   y   |   y   | \_The Task will render the post info via props & state                 |
+|    To-Do's    |   class    |   y   |   y   | \_The To-do's will render the posts via props & state                  |
+|   Resources   | functional |   n   |   n   | \_The blocks will render the post that wont change                     |
+|  add button   | functional |   y   |   n   | \_Buttons will create a post                                           |
+| delete button | functional |   y   |   n   | \_Buttons will delete a post                                           |
 
 <br>
 
 #### Component Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above. 
+> Use this section to estimate the time necessary to build out each of the components you've described above.
 >
 > Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evalute possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe.
 
-| Task                | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Simple Layout       |    H     |     5 hrs      |      hrs     |     5    |
-| Create Actions      |    H     |     3 hrs      |      hrs     |     5    |
-| Read Actions        |    H     |     3 hrs      |      hrs     |     5    |
-| Update Actions      |    H     |     3 hrs      |      hrs     |     5    |
-| Delete Actions      |    H     |     3 hrs      |      hrs     |     5    |
-| Device compatability|    L     |     10 hrs     |      hrs     |     15   |
-| CSS for styling     |    L     |     3 hrs      |      hrs     |     10   |
-| TOTAL               |          |     35 hrs     |      hrs     |     50   |
+| Task                 | Priority | Estimated Time | Time Invested | Actual Time |
+| -------------------- | :------: | :------------: | :-----------: | :---------: |
+| Simple Layout        |    H     |     5 hrs      |      hrs      |      5      |
+| Create Actions       |    H     |     3 hrs      |      hrs      |      5      |
+| Read Actions         |    H     |     3 hrs      |      hrs      |      5      |
+| Update Actions       |    H     |     3 hrs      |      hrs      |      5      |
+| Delete Actions       |    H     |     3 hrs      |      hrs      |      5      |
+| Device compatability |    L     |     10 hrs     |      hrs      |     15      |
+| CSS for styling      |    L     |     3 hrs      |      hrs      |     10      |
+| TOTAL                |          |     35 hrs     |      hrs      |     50      |
 
 <br>
 
@@ -146,10 +145,10 @@ src
 
 > Use this section to document all helper functions– generic functions that can be reused in other applications.
 
-|  Function  | Description                                |
-| :--------: | :----------------------------------------- |
-| Add To-Do    | Creates a task on home page|
-| Delete       | Deletes a task on home page|
+| Function  | Description                 |
+| :-------: | :-------------------------- |
+| Add To-Do | Creates a task on home page |
+|  Delete   | Deletes a task on home page |
 
 <br>
 
@@ -161,16 +160,15 @@ src
 - Add PRO membership SELECTIONS FOR 8.99 a month
 - Add add check out, cart, and new membership monthly account
 
-
 <br>
 
-***
+---
 
 ## Project Delivery
 
 ### Code Showcase
 
-> I am proud of using React-Boostrap library because It was self-taught. I am also proud to get introduced to a new way to create a delete button. 
+> I am proud of using React-Boostrap library because It was self-taught. I am also proud to get introduced to a new way to create a delete button.
 > I am proud of the projects purpose and the amount of people it will help starting with myself
 
 ### Code Issues & Resolutions
@@ -179,5 +177,3 @@ src
 > I did not know how to make the cards contain links to resources and added new code with help
 > I did not know how to seperate description of task with adding task and seprated each with help
 > Started desktop instead of mobile and had trouble sizing efficeintly but it works
-
-
