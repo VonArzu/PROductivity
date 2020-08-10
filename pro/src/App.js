@@ -20,7 +20,8 @@ function App() {
       image:
         "https://vignette.wikia.nocookie.net/logopedia/images/0/03/IBooks_OS_X.svg/revision/latest/scale-to-width-down/340?cb=20181228231211",
       title: "Books",
-      link: "https://www.amazon.com/Best-Sellers-Books-Self-Help/zgbs/books/4736",
+      link:
+        "https://www.amazon.com/Best-Sellers-Books-Self-Help/zgbs/books/4736",
       text: "These Resources are a life saver",
     },
     {
@@ -35,11 +36,10 @@ function App() {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTtsHbGn7OTLODsvuwEGjdbiAk8YwDMfFI43Q&usqp=CAU",
       title: "Help",
-      link: "https://www.creditkarma.com/advice/i/credit-karma-guide-budgeting",
+      link: "https://www.ginger.io/",
       text: "These Resources are a life saver",
     },
   ];
-  
 
   //Used cards from https://react-bootstrap.github.io/components/cards/
   const renderCard = (card, index) => {
