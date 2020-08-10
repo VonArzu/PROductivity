@@ -100,12 +100,12 @@ src
 |__ assets/
       |__ 
 |__ components/ (Added Image links and Resources links)
-      |__ App.js 
-      |__ Home.js
-      |__ Daily.js
+      |__ Header on App.js (PROductivity) 
       |__ DailyTask.js
       |__ ToDo.js
       |__ Dynamic Resource cards from bootstrap w/links
+      |__ Add Task button
+      |__ Delete task button (On description of task)
 ```
 
 <br>
@@ -133,14 +133,14 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Simple Layout       |    H     |     5 hrs      |      hrs     |     TBD     |
-| Create Actions      |    H     |     3 hrs      |      hrs     |     TBD     |
-| Read Actions        |    H     |     3 hrs      |      hrs     |     TBD     |
-| Update Actions      |    H     |     3 hrs      |      hrs     |     TBD     |
-| Delete Actions      |    H     |     3 hrs      |      hrs     |     TBD     |
-| Device compatability|    L     |     5 hrs      |      hrs     |     TBD     |
-| CSS for styling     |    L     |     3 hrs      |      hrs     |     TBD     |
-| TOTAL               |          |     25 hrs     |      hrs     |     TBD     |
+| Simple Layout       |    H     |     5 hrs      |      hrs     |     5    |
+| Create Actions      |    H     |     3 hrs      |      hrs     |     5    |
+| Read Actions        |    H     |     3 hrs      |      hrs     |     5    |
+| Update Actions      |    H     |     3 hrs      |      hrs     |     5    |
+| Delete Actions      |    H     |     3 hrs      |      hrs     |     5    |
+| Device compatability|    L     |     10 hrs     |      hrs     |     15   |
+| CSS for styling     |    L     |     3 hrs      |      hrs     |     10   |
+| TOTAL               |          |     35 hrs     |      hrs     |     50   |
 
 <br>
 
