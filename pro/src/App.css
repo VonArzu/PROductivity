@@ -91,7 +91,6 @@ p{
   justify-content:center;
   color: #E87F5F;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
 }
 .navLink2 {
   background-color: #F6F1C2;
@@ -103,7 +102,7 @@ p{
   justify-content:center;
   color: #E87F5F;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
+  box-shadow: 10px 5px 5px #B03813;
 }
 .card-title, .button{
   box-shadow: 5px 5px #888888;
@@ -240,7 +239,7 @@ p{
     justify-content:center;
     color: #E87F5F;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  
+    box-shadow: 10px 5px 5px #B03813;
   }
   .card-title, .button{
     box-shadow: 5px 5px #888888;
